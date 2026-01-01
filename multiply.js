@@ -1,6 +1,6 @@
 // Multiply
 // https://youtu.be/Cwtx2NTvfXg
-// https://www.codewars.com/kata/50654ddff44f800200000004/solutions/javascript
+// https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript
 
 // const multiply = (a, b) => {
 //   return a * b;
