@@ -6,8 +6,6 @@
 //   return a * b;
 // };
 
-// console.log(multiply(7, 2));
-
 const multiply = (a, b) => a * b;
 
 console.log(multiply(7, 2));
