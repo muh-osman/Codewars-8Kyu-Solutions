@@ -2,13 +2,15 @@
 // 📺 👉 https://youtu.be/Idoo9D-CyqA
 // 👨‍💻 👉 https://www.codewars.com/kata/5168bb5dfe9a00b126000018/train/javascript
 
-// Method (1) 🎯
+// Method (1)
 // const solution = (str) => {
-//   //   return str.split("").reverse().join("");
-//   return [...str].reverse().join("");
+//   return str.split("").reverse().join("");
 // };
 
-// Method (2) 🎯
+// Method (2)
+// const solution = (str) => [...str].reverse().join("");
+
+// Method (3)
 const solution = (str) => {
   let reversed = "";
   for (let i = str.length - 1; i >= 0; i--) {
@@ -17,5 +19,5 @@ const solution = (str) => {
   return reversed;
 };
 
-// Test ✅
+// Test
 console.log(solution("word"));
